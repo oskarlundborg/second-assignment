@@ -27,74 +27,30 @@
         </article>
     </section>
 
-    <!--Page index with hyperlinks to specific sections-->
-    <aside>
-        <nav>
-            <h3>Navigation<!--temporary name--></h3>
+    <!--Page index/navigation-->
+    <div id="navcontainer">
+        <nav id="main-nav">
+            <h3>Navigation</h3>  
             <ul>
-                <li>HQ</li>
-                <li>Elites</li>
-                <li>Troops</li>
-                <li>Fast Attack</li>
-                <li>Heavy Support</li>
+                <li><a href="#hq">HQ</a></li><br>
+                <li><a href="#elites">Elites</a></li><br>
+                <li><a href="#troops">Troops</a></li><br>
+                <li><a href="#fast-attack">Fast Attack</a></li><br>
+                <li><a href="#heavy-support">Heavy Support</a></li><br>
             </ul>
-        </nav>
-    </aside>    
+        </nav>    
+    </div>
     <!--main content, will contain sections containing the entries about all the different army selections-->
     <main>
+        <!--Category; HQs-->
+        <div id="hq">
+            <h3>HQ</h3>
 
-    <!--Category; HQs-->
-    <div id="hq">
-        <h3>HQ</h3>
-
-        <!--Preator-->
-        <section class="unit-section">
-            <h4>Legion Preator <span class="Point-cost">points cost</span></h4>  <!--insert numeral variable-->
-            <p>lore description text</p>
-            <img src="testimg.jpg" alt="Image not found">
-            <h5>Statline</h5>
-            <!--Unit statistics-->
-            <h5>Equipment</h5>
-            <ul><!--list of equipment--></ul>
-            <h5>Special Rules</h5>
-            <ul><!--list of special rules here--></ul>
-        </section>
-
-        <!--Librarian-->
-        <section class="unit-section">
-            <h4>Legion Librarian <span class="Point-cost">points cost</span></h4>  <!--insert numeral variable-->
-            <p>lore description text</p>
-            <img src="testimg.jpg" alt="Image not found">
-            <h5>Statline</h5>
-            <!--Unit statistics-->
-            <h5>Equipment</h5>
-            <ul><!--list of equipment--></ul>
-            <h5>Special Rules</h5>
-            <ul><!--list of special rules here--></ul>
-            </section>
-
-        <!--Vigilator-->
-        <section class="unit-section">
-            <h4>Legion Vigilator <span class="Point-cost">points cost</span></h4>  <!--insert numeral variable-->
-            <p>lore description text</p>
-            <img src="testimg.jpg" alt="Image not found">
-            <h5>Statline</h5>
-            <!--Unit statistics-->
-            <h5>Equipment</h5>                    <ul><!--list of equipment--></ul>
-            <h5>Special Rules</h5>
-            <ul><!--list of special rules here--></ul>
-        </section>
-    </div>
-
-    <!--Category; Elites-->
-    <div id="elites">
-        <h3>Elites</h3>
-
-            <!--Apothecaries-->    
+            <!--Praetor-->
             <section class="unit-section">
-                <h4>Apothecarion Detachment <span class="Point-cost">points cost</span></h4>  <!--insert numeral variable-->
+                <h4>Legion Praetor <span class="Point-cost">points cost</span></h4>  <!--insert numeral variable-->
                 <p>lore description text</p>
-                <img src="testimg.jpg" alt="Image not found">
+                <img src="images/praetor.jpg" alt="Praetor">
                 <h5>Statline</h5>
                 <!--Unit statistics-->
                 <h5>Equipment</h5>
@@ -103,9 +59,9 @@
                 <ul><!--list of special rules here--></ul>
             </section>
 
-            <!--Contemptor-->
+            <!--Librarian-->
             <section class="unit-section">
-                <h4>Contemptor Dreadnaught Talon <span class="Point-cost">points cost</span></h4>  <!--insert numeral variable-->
+                <h4>Legion Librarian <span class="Point-cost">points cost</span></h4>  <!--insert numeral variable-->
                 <p>lore description text</p>
                 <img src="testimg.jpg" alt="Image not found">
                 <h5>Statline</h5>
@@ -114,116 +70,146 @@
                 <ul><!--list of equipment--></ul>
                 <h5>Special Rules</h5>
                 <ul><!--list of special rules here--></ul>
-            </section>
-    </div>
-    
-    <!--Category; Troops-->
-    <div id="troops">
-        <h3>Troops</h3>
+                </section>
 
-            <!--Terror Squad Melee-->
+            <!--Vigilator-->
             <section class="unit-section">
-                <h4>Unit name and <span class="Point-cost">points cost</span></h4>  <!--insert numeral variable-->
+                <h4>Legion Vigilator <span class="Point-cost">points cost</span></h4>  <!--insert numeral variable-->
                 <p>lore description text</p>
                 <img src="testimg.jpg" alt="Image not found">
                 <h5>Statline</h5>
                 <!--Unit statistics-->
-                <h5>Equipment</h5>
-                <ul><!--list of equipment--></ul>
+                <h5>Equipment</h5>                    <ul><!--list of equipment--></ul>
                 <h5>Special Rules</h5>
                 <ul><!--list of special rules here--></ul>
             </section>
+        </div>
 
-            <!--Terror Squad Volkite-->
-            <section class="unit-section">
-                <h4>Unit name and <span class="Point-cost">points cost</span></h4>  <!--insert numeral variable-->
-                <p>lore description text</p>
-                <img src="testimg.jpg" alt="Image not found">
-                <h5>Statline</h5>
-                <!--Unit statistics-->
-                <h5>Equipment</h5>
-                <ul><!--list of equipment--></ul>
-                <h5>Special Rules</h5>
-                <ul><!--list of special rules here--></ul>
-            </section>
+        <!--Category; Elites-->
+        <div id="elites">
+            <h3>Elites</h3>
 
-            <!--Night Raptors-->
-            <section class="unit-section">
-                <h4>Unit name and <span class="Point-cost">points cost</span></h4>  <!--insert numeral variable-->
-                <p>lore description text</p>
-                <img src="testimg.jpg" alt="Image not found">
-                <h5>Statline</h5>
-                <!--Unit statistics-->
-                <h5>Equipment</h5>
-                <ul><!--list of equipment--></ul>
-                <h5>Special Rules</h5>
-                <ul><!--list of special rules here--></ul>
-            </section>
-    </div>
+                <!--Apothecaries-->    
+                <section class="unit-section">
+                    <h4>Apothecarion Detachment <span class="Point-cost">points cost</span></h4>  <!--insert numeral variable-->
+                    <p>lore description text</p>
+                    <img src="testimg.jpg" alt="Image not found">
+                    <h5>Statline</h5>
+                    <!--Unit statistics-->
+                    <h5>Equipment</h5>
+                    <ul><!--list of equipment--></ul>
+                    <h5>Special Rules</h5>
+                    <ul><!--list of special rules here--></ul>
+                </section>
 
-    <!--Category; Fast Attack-->
-    <div id="fast-attack">
-        <h3>Fast Attack</h3>  
-            
-            <!--Seekers-->
-            <section class="unit-section">
-                <h4>Unit name and <span class="Point-cost">points cost</span></h4>  <!--insert numeral variable-->
-                <p>lore description text</p>
-                <img src="testimg.jpg" alt="Image not found">
-                <h5>Statline</h5>
-                <!--Unit statistics-->
-                <h5>Equipment</h5>
-                <ul><!--list of equipment--></ul>
-                <h5>Special Rules</h5>
-                <ul><!--list of special rules here--></ul>
-            </section>
-
-            <!--Land Speeders-->
-            <section class="unit-section">
-                <h4>Unit name and <span class="Point-cost">points cost</span></h4>  <!--insert numeral variable-->
-                <p>lore description text</p>
-                <img src="testimg.jpg" alt="Image not found">
-                <h5>Statline</h5>
-                <!--Unit statistics-->
-                <h5>Equipment</h5>
-                <ul><!--list of equipment--></ul>
-                <h5>Special Rules</h5>
-                <ul><!--list of special rules here--></ul>
-            </section>
-    </div>
-    
-    <!--Category; Heavy Support-->
-    <div id="heavy-support">
-        <h3>Heavy Support</h3>
+                <!--Contemptor-->
+                <section class="unit-section">
+                    <h4>Contemptor Dreadnaught Talon <span class="Point-cost">points cost</span></h4>  <!--insert numeral variable-->
+                    <p>lore description text</p>
+                    <img src="testimg.jpg" alt="Image not found">
+                    <h5>Statline</h5>
+                    <!--Unit statistics-->
+                    <h5>Equipment</h5>
+                    <ul><!--list of equipment--></ul>
+                    <h5>Special Rules</h5>
+                    <ul><!--list of special rules here--></ul>
+                </section>
+        </div>
         
-            <!--Leviathan-->
-            <section class="unit-section">
-                <h4>Unit name and <span class="Point-cost">points cost</span></h4>  <!--insert numeral variable-->
-                <p>lore description text</p>
-                <img src="testimg.jpg" alt="Image not found">
-                <h5>Statline</h5>
-                <!--Unit statistics-->
-                <h5>Equipment</h5>
-                <ul><!--list of equipment--></ul>
-                <h5>Special Rules</h5>
-                <ul><!--list of special rules here--></ul>
-            </section>
-    </div>
+        <!--Category; Troops-->
+        <div id="troops">
+            <h3>Troops</h3>
 
-    <!--Default unit section layout, DON'T FILL IN-->
-        <section class="unit-section">
-            <h4>Unit name and <span class="Point-cost">points cost</span></h4>  <!--insert numeral variable-->
-            <p>lore description text</p>
-            <img src="testimg.jpg" alt="Image not found">
-            <h5>Statline</h5>
-            <!--Unit statistics-->
-            <h5>Equipment</h5>
-            <ul><!--list of equipment--></ul>
-            <h5>Special Rules</h5>
-            <ul><!--list of special rules here--></ul>
-        </section>
+                <!--Terror Squad Melee-->
+                <section class="unit-section">
+                    <h4>Unit name and <span class="Point-cost">points cost</span></h4>  <!--insert numeral variable-->
+                    <p>lore description text</p>
+                    <img src="testimg.jpg" alt="Image not found">
+                    <h5>Statline</h5>
+                    <!--Unit statistics-->
+                    <h5>Equipment</h5>
+                    <ul><!--list of equipment--></ul>
+                    <h5>Special Rules</h5>
+                    <ul><!--list of special rules here--></ul>
+                </section>
 
+                <!--Terror Squad Volkite-->
+                <section class="unit-section">
+                    <h4>Unit name and <span class="Point-cost">points cost</span></h4>  <!--insert numeral variable-->
+                    <p>lore description text</p>
+                    <img src="testimg.jpg" alt="Image not found">
+                    <h5>Statline</h5>
+                    <!--Unit statistics-->
+                    <h5>Equipment</h5>
+                    <ul><!--list of equipment--></ul>
+                    <h5>Special Rules</h5>
+                    <ul><!--list of special rules here--></ul>
+                </section>
+
+                <!--Night Raptors-->
+                <section class="unit-section">
+                    <h4>Unit name and <span class="Point-cost">points cost</span></h4>  <!--insert numeral variable-->
+                    <p>lore description text</p>
+                    <img src="testimg.jpg" alt="Image not found">
+                    <h5>Statline</h5>
+                    <!--Unit statistics-->
+                    <h5>Equipment</h5>
+                    <ul><!--list of equipment--></ul>
+                    <h5>Special Rules</h5>
+                    <ul><!--list of special rules here--></ul>
+                </section>
+        </div>
+
+        <!--Category; Fast Attack-->
+        <div id="fast-attack">
+            <h3>Fast Attack</h3>  
+                
+                <!--Seekers-->
+                <section class="unit-section">
+                    <h4>Unit name and <span class="Point-cost">points cost</span></h4>  <!--insert numeral variable-->
+                    <p>lore description text</p>
+                    <img src="testimg.jpg" alt="Image not found">
+                    <h5>Statline</h5>
+                    <!--Unit statistics-->
+                    <h5>Equipment</h5>
+                    <ul><!--list of equipment--></ul>
+                    <h5>Special Rules</h5>
+                    <ul><!--list of special rules here--></ul>
+                </section>
+
+                <!--Land Speeders-->
+                <section class="unit-section">
+                    <h4>Unit name and <span class="Point-cost">points cost</span></h4>  <!--insert numeral variable-->
+                    <p>lore description text</p>
+                    <img src="testimg.jpg" alt="Image not found">
+                    <h5>Statline</h5>
+                    <!--Unit statistics-->
+                    <h5>Equipment</h5>
+                    <ul><!--list of equipment--></ul>
+                    <h5>Special Rules</h5>
+                    <ul><!--list of special rules here--></ul>
+                </section>
+        </div>
+        
+        <!--Category; Heavy Support-->
+        <div id="heavy-support">
+            <h3>Heavy Support</h3>
+            
+                <!--Leviathan-->
+                <section class="unit-section">
+                    <h4>Unit name and <span class="Point-cost">points cost</span></h4>  <!--insert numeral variable-->
+                    <p>lore description text</p>
+                    <img src="testimg.jpg" alt="Image not found">
+                    <h5>Statline</h5>
+                    <!--Unit statistics-->
+                    <h5>Equipment</h5>
+                    <ul><!--list of equipment--></ul>
+                    <h5>Special Rules</h5>
+                    <ul><!--list of special rules here--></ul>
+                </section>
+        </div>
     </main>
+
     <footer><!--Contact information and other information here--></footer>
 </body>
 </html>
