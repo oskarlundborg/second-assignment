@@ -1,0 +1,78 @@
+
+/*Header*/
+    header {
+        background-color: #7A0018;
+        box-shadow: 5px 10px #0000005d;
+    }
+    h1 {
+        text-align: center;
+        background-color: #A30021;
+    }
+    h2 {
+        background-color: #7A0018;
+        text-align: center;
+    }
+
+/*body*/
+    body {
+        background-color: #202B46;
+    }
+
+/*headings*/
+    h3 {
+        background-color: #A30021;
+    }
+    h4 {
+        background-color: #A30021;
+    }
+    h5 {
+        background-color:#0000001d;
+    }
+
+/*Introduction*/
+    #page-description {
+        background-color: #38405F;
+        box-shadow: 5px 10px #0000005d;
+    }
+    article {
+        background-color: #FFE1A6;
+    }
+
+
+/*Navigation*/
+    nav {
+        background-color: #38405F;
+        box-shadow: 5px 10px #0000005d;
+    }
+    ul {
+        background-color: #5A6699;
+    }
+
+/*Main+content*/
+    /*Section Categories*/
+    #hq {
+        background-color: #38405F;
+        box-shadow: 5px 10px #0000005d;
+    }
+    #elites {
+        background-color: #38405F;
+        box-shadow: 5px 10px #0000005d;
+    }
+    #troops {
+        background-color: #38405F;
+        box-shadow: 5px 10px #0000005d;
+    }
+    #fast-attack {
+        background-color: #38405F;
+        box-shadow: 5px 10px #0000005d;
+    }
+    #heavy-support {
+        background-color: #38405F;
+        box-shadow: 5px 10px #0000005d;
+    }
+
+    /*Unit sections*/
+    .unit-section {
+        background-color: #FFE1A6;
+        box-shadow: 2.5px 5px #0000005d;  
+    }
