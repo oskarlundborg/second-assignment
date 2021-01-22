@@ -28,10 +28,11 @@
     </section>
 
     <!--Page index/navigation-->
+<div id="maincontainer">
     <div id="navcontainer">
         <nav id="main-nav">
             <h3>Navigation</h3>  
-            <ul>
+            <ul id="navlist">
                 <li><a href="#hq">HQ</a></li><br>
                 <li><a href="#elites">Elites</a></li><br>
                 <li><a href="#troops">Troops</a></li><br>
@@ -48,22 +49,56 @@
 
             <!--Praetor-->
             <section class="unit-section">
-                <h4>Legion Praetor <span class="Point-cost">points cost</span></h4>  <!--insert numeral variable-->
-                <p>lore description text</p>
-                <img src="images/praetor.jpg" alt="Praetor">
-                <h5>Statline</h5>
-                <!--Unit statistics-->
-                <h5>Equipment</h5>
-                <ul><!--list of equipment--></ul>
-                <h5>Special Rules</h5>
-                <ul><!--list of special rules here--></ul>
+                <h4>Legion Praetor <span class="Point-cost">210 pts</span></h4>  <!--insert numeral variable-->
+                <div class="imgcontainer">  
+                    <img class="unit-img" src="images/praetor.jpg" alt="Praetor">
+                </div>
+                <div class="unitcontainer">  
+                    <p class="lore">
+                        The praetors were the mightiest warriors and battle-leaders of the ancient Legiones Astartes, 
+                        second only to the demigod-like primarchs in martial skills and generalship. 
+                        They most commonly commanded Chapter-size formations within their Legion or whatever 
+                        the equivalently-named unit was within a given Legion's culture. 
+                    </p> 
+                    <div class="stats">
+                        <h5>Statline</h5>
+                        <ul>
+                            <li>WS: 6</li>
+                            <li>BS: 5</li>
+                            <li>S: 4</li>
+                            <li>T: 4</li>
+                            <li>W: 3</li>
+                            <li>I: 5</li>
+                            <li>A: 4</li> 
+                            <li>LD: 10</li>
+                            <li>Save: 2+</li>
+                        </ul>
+                    </div>
+                    <div class="equipment">   
+                        <h5>Equipment</h5>
+                        <ul>
+                            <li>Paragon Blade: S +1 - AP 2</li>
+                            <li>Archaotech Pistol: S 6 - AP 3</li>
+                            <li>Iron Halo: Confers 4++ Invulnerable Save</li>
+                        </ul>
+                    </div>
+                    <div class="rules">
+                        <h5>Special Rules</h5>
+                        <ul>
+                            <li>A Talent For Murder</li>
+                            <li>From The Shadows</li>
+                            <li>Murderous Strike</li>
+                            <li>Night Vision</li>
+                        </ul>
+                    </div>
+                </div>
             </section>
 
             <!--Librarian-->
             <section class="unit-section">
                 <h4>Legion Librarian <span class="Point-cost">points cost</span></h4>  <!--insert numeral variable-->
                 <p>lore description text</p>
-                <img src="testimg.jpg" alt="Image not found">
+                <img class="unit-img" src="testimg.jpg" alt="Image not found">
                 <h5>Statline</h5>
                 <!--Unit statistics-->
                 <h5>Equipment</h5>
@@ -76,7 +111,7 @@
             <section class="unit-section">
                 <h4>Legion Vigilator <span class="Point-cost">points cost</span></h4>  <!--insert numeral variable-->
                 <p>lore description text</p>
-                <img src="testimg.jpg" alt="Image not found">
+                <img class="unit-img" src="testimg.jpg" alt="Image not found">
                 <h5>Statline</h5>
                 <!--Unit statistics-->
                 <h5>Equipment</h5>                    <ul><!--list of equipment--></ul>
@@ -93,7 +128,7 @@
                 <section class="unit-section">
                     <h4>Apothecarion Detachment <span class="Point-cost">points cost</span></h4>  <!--insert numeral variable-->
                     <p>lore description text</p>
-                    <img src="testimg.jpg" alt="Image not found">
+                    <img class="unit-img" src="testimg.jpg" alt="Image not found">
                     <h5>Statline</h5>
                     <!--Unit statistics-->
                     <h5>Equipment</h5>
@@ -106,7 +141,7 @@
                 <section class="unit-section">
                     <h4>Contemptor Dreadnaught Talon <span class="Point-cost">points cost</span></h4>  <!--insert numeral variable-->
                     <p>lore description text</p>
-                    <img src="testimg.jpg" alt="Image not found">
+                    <img class="unit-img" src="testimg.jpg" alt="Image not found">
                     <h5>Statline</h5>
                     <!--Unit statistics-->
                     <h5>Equipment</h5>
@@ -124,7 +159,7 @@
                 <section class="unit-section">
                     <h4>Unit name and <span class="Point-cost">points cost</span></h4>  <!--insert numeral variable-->
                     <p>lore description text</p>
-                    <img src="testimg.jpg" alt="Image not found">
+                    <img class="unit-img" src="testimg.jpg" alt="Image not found">
                     <h5>Statline</h5>
                     <!--Unit statistics-->
                     <h5>Equipment</h5>
@@ -137,7 +172,7 @@
                 <section class="unit-section">
                     <h4>Unit name and <span class="Point-cost">points cost</span></h4>  <!--insert numeral variable-->
                     <p>lore description text</p>
-                    <img src="testimg.jpg" alt="Image not found">
+                    <img class="unit-img" src="testimg.jpg" alt="Image not found">
                     <h5>Statline</h5>
                     <!--Unit statistics-->
                     <h5>Equipment</h5>
@@ -150,7 +185,7 @@
                 <section class="unit-section">
                     <h4>Unit name and <span class="Point-cost">points cost</span></h4>  <!--insert numeral variable-->
                     <p>lore description text</p>
-                    <img src="testimg.jpg" alt="Image not found">
+                    <img class="unit-img" src="testimg.jpg" alt="Image not found">
                     <h5>Statline</h5>
                     <!--Unit statistics-->
                     <h5>Equipment</h5>
@@ -168,7 +203,7 @@
                 <section class="unit-section">
                     <h4>Unit name and <span class="Point-cost">points cost</span></h4>  <!--insert numeral variable-->
                     <p>lore description text</p>
-                    <img src="testimg.jpg" alt="Image not found">
+                    <img class="unit-img" src="testimg.jpg" alt="Image not found">
                     <h5>Statline</h5>
                     <!--Unit statistics-->
                     <h5>Equipment</h5>
@@ -181,7 +216,7 @@
                 <section class="unit-section">
                     <h4>Unit name and <span class="Point-cost">points cost</span></h4>  <!--insert numeral variable-->
                     <p>lore description text</p>
-                    <img src="testimg.jpg" alt="Image not found">
+                    <img class="unit-img" src="testimg.jpg" alt="Image not found">
                     <h5>Statline</h5>
                     <!--Unit statistics-->
                     <h5>Equipment</h5>
@@ -199,7 +234,7 @@
                 <section class="unit-section">
                     <h4>Unit name and <span class="Point-cost">points cost</span></h4>  <!--insert numeral variable-->
                     <p>lore description text</p>
-                    <img src="testimg.jpg" alt="Image not found">
+                    <img class="unit-img" src="testimg.jpg" alt="Image not found">
                     <h5>Statline</h5>
                     <!--Unit statistics-->
                     <h5>Equipment</h5>
@@ -209,6 +244,7 @@
                 </section>
         </div>
     </main>
+</div>
 
     <footer><!--Contact information and other information here--></footer>
 </body>

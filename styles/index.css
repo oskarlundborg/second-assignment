@@ -47,46 +47,81 @@
         background-color: #7A0018;
         box-shadow: 5px 10px #0000005d;
         margin: 10px;
+        padding-bottom: 5px;
     }
-    ul {
-        background-color: #38405F;
+    #navlist {
+        background-color: #FFE1A6;
+        margin: 5px;
+        padding: 30px;
     }
     li {
         margin-left: 10px;
         background-color:#0000001d;
     }
     #navcontainer {
-        float: left;
+        position:fixed;
     }
 /*Main+content*/
 main {
-    margin: 10px;
-    float: left;
+    float: right;
+    max-width: 80%;
+    margin-right:5%;
 }
     /*Section Categories*/
     #hq {
         background-color: #38405F;
-        box-shadow: 5px 10px #0000005d;
+        box-shadow: 15px 20px #0000005d;
     }
     #elites {
         background-color: #38405F;
-        box-shadow: 5px 10px #0000005d;
+        box-shadow: 15px 20px #0000005d;
     }
     #troops {
         background-color: #38405F;
-        box-shadow: 5px 10px #0000005d;
+        box-shadow: 15px 20px #0000005d;
     }
     #fast-attack {
         background-color: #38405F;
-        box-shadow: 5px 10px #0000005d;
+        box-shadow: 15px 20px #0000005d;
     }
     #heavy-support {
         background-color: #38405F;
-        box-shadow: 5px 10px #0000005d;
+        box-shadow: 15px 20px #0000005d;
     }
 
     /*Unit sections*/
     .unit-section {
         background-color: #FFE1A6;
-        box-shadow: 2.5px 5px #0000005d;  
+        height: 400px;
+    }
+    .unitcontainer {
+        float:left;
+        max-width: 75%;
+    }
+    .imgcontainer {
+        float:right;
+        max-width: 25%;
+    }
+    .unit-img {
+        max-width: 90%;
+        max-height: 90%;
+        border-style: solid;
+        border-width: 5px;
+        border-color: #7A0018;
+    }
+    .stats {
+        float: left;
+        margin: 5px;
+    }
+    .equipment {
+        float: left;
+        margin: 5px;
+    }
+    .rules {
+        float: left;
+        margin: 5px;
+    }
+    .lore {
+        background-color: #0000001d;
+        margin: 10px;
     }
