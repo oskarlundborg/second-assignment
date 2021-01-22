@@ -38,7 +38,7 @@
         margin: 10px;
     }
     article {
-        background-color: #FFE1A6;
+        background-color: #FFD582;
     }
 
 
@@ -50,7 +50,7 @@
         padding-bottom: 5px;
     }
     #navlist {
-        background-color: #FFE1A6;
+        background-color: #FFD582;
         margin: 5px;
         padding: 30px;
     }
@@ -91,7 +91,7 @@ main {
 
     /*Unit sections*/
     .unit-section {
-        background-color: #FFE1A6;
+        background-color: #FFD582;
         height: 400px;
     }
     .unitcontainer {
@@ -101,6 +101,7 @@ main {
     .imgcontainer {
         float:right;
         max-width: 25%;
+        height: 400px;
     }
     .unit-img {
         max-width: 90%;
